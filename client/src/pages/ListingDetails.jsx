@@ -6,7 +6,7 @@ import "react-date-range/dist/theme/default.css";
 import { DateRange } from "react-date-range";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
-import { enUS } from "date-fns/locale";
+import enUS from "date-fns/locale/en-US";
 import { useSelector } from "react-redux";
 import "../styles/ListingDetails.scss";
 import Footer from "../components/Footer";
